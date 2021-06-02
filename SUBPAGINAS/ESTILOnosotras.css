@@ -1,0 +1,130 @@
+a:link, a:visited, a:active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #260401;
+    font-family: lato, montserrat;
+    font-size: 1.1em;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#body {
+    display: flex;
+    flex-direction: column;
+    Justify-content: center;
+    width: 100%;
+    font-size: 1em;
+}
+
+img {
+    width: 26%;
+    position: relative; 
+    z-index: 10;
+}
+.navbar {
+    position:relative; left: 26%; 
+    margin-top: -5.9%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.1em;
+    background-color: #F2E9BD;
+    width: 71%;
+    z-index: 15;
+}
+
+.nosotras{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.nosotras img {
+    position: relative;
+    width: 100%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+}
+h1 {
+    color: #BF7F5A;
+    font-family: lato;
+    margin: 1%;
+}
+.nosotras p {
+    color: #2b0b00;
+    font-family: lato;
+    font-size: 1.2em;
+    font-weight: 600;
+    word-spacing: .15em;
+    line-height: 180%;
+    margin: 1%;
+}
+footer{
+    background-color:#BF7F5A;
+    height: auto;
+    width: 100%;
+    font-family: "lato", "montserrat", "mulish";
+    padding-top: 1%;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.redes{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.redes li {
+    margin: 0 10px;
+}
+.redes a {
+    text-decoration: none;
+    color:white;
+}
+.redes a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.redes a:hover i{
+    color: #591902;
+}
+.footer-bottom {
+    background-color:#ffcdb0 ;
+    color:#591902ad ;
+    width: 100%;
+    padding: 1% 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: .9em;
+    word-spacing: .05em;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+}

@@ -1,0 +1,140 @@
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #260401;
+    font-family: lato, montserrat;
+    font-size: 1.1em;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#body {
+    display: flex;
+    flex-direction: column;
+    Justify-content: center;
+    width: 100%;
+    font-size: 1em;
+}
+
+img {
+    width: 26%;
+    position: relative; 
+    z-index: 10;
+}
+.navbar {
+    position:relative; left: 26%; 
+    margin-top: -5.9%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.1em;
+    background-color: #F2E9BD;
+    width: 71%;
+    z-index: 15;
+}
+.container{
+    background-color: rgb(255, 254, 254);
+    display:flex;
+    height:70vh;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.item{
+    height:55vh;
+    padding:.5em;
+    margin: .9em;
+    margin top: 1.5em;
+    background-color: white;
+    color: #591902;
+    border-color: #F2E9BD;
+    border-style: solid;
+    border: 0.1%;
+}
+.item img{
+    width: 45vh;
+    height: auto;
+    margin-bottom: 2vh;
+}
+.item p{
+    font-size: 1.2em;
+    text-align: center;
+    position: relative; left: 30%;
+    color: #BF7F5A;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    background:#F2E9BD;
+    padding: 1%;
+    border: .05%;
+    width: 37%;
+    border-color: #BF7F5A;
+    border-style: solid;
+}
+footer{
+    background-color:#BF7F5A;
+    height: auto;
+    width: 100%;
+    font-family: "lato", "montserrat", "mulish";
+    padding-top: 1%;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.redes{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.redes li {
+    margin: 0 10px;
+}
+.redes a {
+    text-decoration: none;
+    color:white;
+}
+.redes a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.redes a:hover i{
+    color: #591902;
+}
+.footer-bottom {
+    background-color:#ffcdb0 ;
+    color:#591902ad ;
+    width: 100%;
+    padding: 1% 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: .9em;
+    word-spacing: .05em;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+}
